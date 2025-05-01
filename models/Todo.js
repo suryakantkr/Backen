@@ -4,12 +4,12 @@ const TodoSchema = new mongoose.Schema({
     Title: {
         type: String,
         required: true, 
-        maxLength: 50
+        maxLength: 100
     },
     Description: { 
         type: String,
         required: true,
-        maxLength: 50
+        maxLength: 100
     },
     createdAt: { 
         type: Date,
